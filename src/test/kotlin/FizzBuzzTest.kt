@@ -10,4 +10,9 @@ class FizzBuzzTest {
         assertThat(sut.fizzBuzz(10))
             .isEqualTo("[1, 2, Fizz, 4, 5, Fizz, 7, 8, Fizz, 10]")
     }
+
+    @Test
+    fun `that converts '5' to 'Buzz'`() {
+        assertThat(sut.fizzBuzz(5)).endsWith("Buzz]")
+    }
 }
