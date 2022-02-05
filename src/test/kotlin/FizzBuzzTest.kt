@@ -8,7 +8,7 @@ class FizzBuzzTest {
     @Test
     fun `that returns all numbers from 1 to 10 including 'Fizz'`() {
         assertThat(sut.fizzBuzz(10))
-            .isEqualTo("[1, 2, Fizz, 4, 5, Fizz, 7, 8, Fizz, 10]")
+            .isEqualTo("[1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, 10]")
     }
 
     @Test
