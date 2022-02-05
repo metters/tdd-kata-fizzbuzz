@@ -10,4 +10,9 @@ class FizzBuzzTest {
         assertThat(sut.fizzBuzz(10))
             .isEqualTo("[1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz]")
     }
+
+    @Test
+    fun `that numbers divisible by 15 are converted to 'FizzBuzz`() {
+        assertThat(sut.fizzBuzz(15)).endsWith("FizzBuzz]")
+    }
 }
