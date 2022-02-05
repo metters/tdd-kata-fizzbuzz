@@ -6,13 +6,8 @@ class FizzBuzzTest {
     private val sut = FizzBuzz()
 
     @Test
-    fun `that returns all numbers from 1 to 10 including 'Fizz'`() {
+    fun `that returns all numbers from 1 to 10 including 'Fizz' and 'Buzz'`() {
         assertThat(sut.fizzBuzz(10))
-            .isEqualTo("[1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, 10]")
-    }
-
-    @Test
-    fun `that converts '5' to 'Buzz'`() {
-        assertThat(sut.fizzBuzz(5)).endsWith("Buzz]")
+            .isEqualTo("[1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz]")
     }
 }
