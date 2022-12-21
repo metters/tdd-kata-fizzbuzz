@@ -1,6 +1,6 @@
 # tdd-kata-fizzbuzz
 
-The program illustrates an example of fizzbuzz, using TDD and serves as reference for my blog post on blog.senacor.com.
+The program illustrates an example of fizzbuzz, using TDD and serves as reference for my blog post on [blog.senacor.com](https://senacor.blog/coding-kata-in-der-praxis/) and [metters.dev](https://metters.dev/2022/05/10/coding-kata-2/).
 Please check the commit messages, where I tried to visualise the TDD cycle:
 Each commit message is preceded by a keyword _RED_, _GREEN_, or _REFACTOR_.
 
